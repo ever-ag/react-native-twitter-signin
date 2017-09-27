@@ -25,7 +25,7 @@ public class TwitterSigninPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new TwitterSigninModule(reactContext));
     }
 
-    @Override
+    // Deprecated in RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
